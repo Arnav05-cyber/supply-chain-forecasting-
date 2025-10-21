@@ -1,15 +1,16 @@
-# Trained Models
+# Models Directory
 
-Pre-trained machine learning models and encoders.
+This directory should contain the trained ML model files:
 
-## Files
-- `improved_forecasting_model.joblib` - Best model (5.41% MAPE)
+- `improved_forecasting_model.joblib` - Main trained model
 - `improved_model_encoders.joblib` - Categorical encoders
 - `improved_model_info.json` - Model metadata
-- `*_package.pkl` - Complete model packages
 
-## Usage
-```python
-import joblib
-model = joblib.load('improved_forecasting_model.joblib')
-```
+## Note for Render Deployment
+
+Due to file size limitations, you may need to:
+1. Upload model files separately after deployment
+2. Use a cloud storage service (AWS S3, Google Cloud Storage)
+3. Or deploy without the model files (app will use fallback prediction logic)
+
+The application will work with or without these files.

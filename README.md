@@ -6,12 +6,18 @@ A complete AI-powered forecasting system with world-class accuracy (5.41% MAPE) 
 
 ## 🎯 Quick Start
 
-### Start the Dashboard
+### Local Development
 ```bash
-python src/dashboard/smart_dashboard_backend.py
+python app.py
 ```
 
-**Dashboard URL**: http://localhost:8000
+### Render Deployment
+This app is configured for easy deployment on Render:
+1. Connect your GitHub repository to Render
+2. Deploy as a Web Service
+3. Render will automatically use the `render.yaml` configuration
+
+**Live Demo**: [Your Render URL]
 
 ### Load Sample Data
 Click "Load Sample Data" in the dashboard and generate your first forecast!

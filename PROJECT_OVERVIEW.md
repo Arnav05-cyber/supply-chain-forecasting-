@@ -100,7 +100,7 @@ Your AI forecasting project has been transformed into a **professional, enterpri
 ### **🚀 Start Dashboard**
 ```bash
 # From project root
-python src/dashboard/simple_dashboard.py
+python src/dashboard/smart_dashboard_backend.py
 
 # Dashboard available at: http://localhost:8000
 ```

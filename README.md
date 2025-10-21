@@ -8,7 +8,7 @@ A complete AI-powered forecasting system with world-class accuracy (5.41% MAPE) 
 
 ### Start the Dashboard
 ```bash
-python src/dashboard/simple_dashboard.py
+python src/dashboard/smart_dashboard_backend.py
 ```
 
 **Dashboard URL**: http://localhost:8000
@@ -66,7 +66,7 @@ Click "Load Sample Data" in the dashboard and generate your first forecast!
 
 ### Local Development
 ```bash
-python src/dashboard/simple_dashboard.py
+python src/dashboard/smart_dashboard_backend.py
 ```
 
 ### Docker
